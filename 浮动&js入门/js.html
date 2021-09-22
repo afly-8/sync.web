@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        function toMove() {
+            var obj = document.getElementById("divs");
+            obj.style.marginLeft = obj.offsetLeft + 5 + "px"
+            obj.style.marginTop = obj.offsetTop + 3 + "px"
+        }
+    </script>
+</head>
+
+<body>
+    <input value="移动" type="button" onclick="toMove()">
+    <div id="divs" class="move" style="width: 100px; height:100px; border: 1px red solid;"></div>
+</body>
+
+</html>
